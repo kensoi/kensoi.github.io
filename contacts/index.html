@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kensoi Doc </title>
+    <link rel="stylesheet" href='../css/style-layout.css'>
+    <link rel="stylesheet" href='../css/style-footer.css'>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript" src="../js/redirection.js"></script>
+    <style>
+        .panel_part_contact {
+            display: inline-block;
+            text-align: left;
+
+            min-width: 32px;
+            max-width: 52px;
+            margin: 16px 16px;
+        }
+
+        .contacts-header {
+            font-weight: bold;
+            text-align: right;
+        }
+        @media screen and (max-width: 810px){
+            .contacts-header {
+                text-align: center;
+                font-size: 20px;
+                
+                width: 50%;
+                height: 32px;
+
+                line-height: 32px;
+                display: inline-table;
+                vertical-align: middle;
+                background-color: rgba(24,24,24, 1);
+                border: 2px solid rgba(36,36,36, 1);
+                border-radius: 6px 6px 0 0;
+            }
+            .contacts-link {
+                text-align: center;
+
+                width: 50%;
+                height: 32px;
+                
+                line-height: 32px;
+                display: inline-table;
+                vertical-align: middle;
+                background-color: rgba(12,12,12, 1);
+                border: 2px solid rgba(24,24,24, 1);
+                border-top: 0;
+                border-radius: 0 0 6px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="panel layout">
+        <div class ="start-page-logo"> 
+            <div class = "start-page-wrapp">
+                <img src="../img/logos/kensoi_doc.svg" class="footer-cell-logo">
+            </div>
+            <div onclick="redirect(0)" class = "start-page-root">
+                kensoi/contacts
+            </div>
+        </div>
+    </div>
+    <div class = "panel_cover">
+        <div class = "panel_part alpha_bg">
+            <h1>
+                Main contacts
+            </h1>
+            <p>
+                You can find me at these social media:
+            </p>
+        </div>
+        <div class = "panel_line"> 
+            <img class = "panel_part_contact" onclick="redirect(1)" src="../img/logos/github.svg">
+            <img class = "panel_part_contact" onclick="redirect(2)" src="../img/logos/telegram.svg">
+            <img class = "panel_part_contact" onclick="redirect(3)" src="../img/logos/vkontakte.svg">
+        </div>
+        <div class = "panel_part alpha_bg">
+            <h1>
+                Another social media
+            </h1>
+        </div>
+        <div class = "panel_line" onclick = "location.href=`https://twitter.com/kensoi_fuji`"> 
+            <div class = "panel_part alpha_bg contacts-header">
+                Twitter
+            </div>
+            <div class = "panel_part alpha_bg contacts-link">
+                @kensoi_fuji
+            </div>
+        </div>
+        <div class = "panel_line" onclick = "location.href=`https://instagram.com/andprokofieff`"> 
+            <div class = "panel_part alpha_bg contacts-header">
+                Instagram
+            </div>
+            <div class = "panel_part alpha_bg contacts-link">
+                @andprokofieff
+            </div>
+        </div>
+        <div class = "panel_line"> 
+            <div class = "panel_part alpha_bg contacts-header">
+                Gmail
+            </div>
+            <div class = "panel_part alpha_bg contacts-link">
+                prokofieff.help@gmail.com
+            </div>
+        </div>
+        <div class = "panel_line" style = "margin-top: 48px;" onclick = "location.href=`https://ru.wikipedia.org/wiki/Night_in_the_Woods`"> 
+            <img src="../img/nitw_mae.gif" style="border-radius: 16px;">
+        </div>
+    </div>
+
+    <div class="block select_none">
+        <div class="footer-table">
+            <div class="footer-cell-main">
+                <img src="../img/logos/kensoi_doc.svg" class="footer-cell-logo" onclick="redirect(0)">
+            </div>  
+    
+            <div class="footer-cell">
+                <div class="footer-cell-headline" onclick="redirect(4)">Projects</div>
+                <div class="footer-cell-link" onclick="redirect(11)">@canarybot</div>
+                <div class="footer-cell-link" onclick="redirect(12)">@testcanarybot</div>
+            </div>
+
+            <div class="footer-cell">
+                <div class="footer-cell-headline" onclick="redirect(5)">Sources</div>
+                <div class="footer-cell-link" onclick="redirect(6)">Kensoi Doc Design</div>
+                <div class="footer-cell-link" onclick="redirect(7)">Kensoi Open Cloud</div>
+                <div class="footer-cell-link" onclick="redirect(8)">testcanarybot</div>
+                <div class="footer-cell-link" onclick="redirect(9)">Telegram API wrapper</div>
+                <div class="footer-cell-link" onclick="redirect(10)">Complex Angle</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

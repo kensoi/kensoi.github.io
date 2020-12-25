@@ -1,0 +1,31 @@
+.main-teaser {
+    position: relative;
+    width: 90vw;
+    min-height: calc(100vw / 16 * 9);
+    background: linear-gradient( rgb(55, 0, 255), rgb(162, 0, 255));
+}
+
+.teaser-arrow-help {
+    position: absolute;
+    right: calc(5% + 56px);
+    bottom: 72px;
+}
+.teaser-moving-arrow {
+    position: absolute;
+    width: 32px;
+    right: 5%;
+    bottom: 2%;
+}
+.main-teaser h1 {
+    text-align: center;
+    padding-top: 15vw;
+    font-size: 72px;
+}
+.main-teaser p {
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.1vw;
+    padding-bottom: 25vw;
+    font-size: 24px;
+}

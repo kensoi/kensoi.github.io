@@ -1,0 +1,33 @@
+.testdoc {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.testdoc_descr {
+    width: 65vw;
+    margin: auto;
+}
+.testdoc_twocolumns {
+    width: 100%;
+    text-align: center;
+}
+
+.testdoc_button {
+    display: inline-table;
+    width: calc(50% - 24px);
+    margin: 12px!important;
+    vertical-align: center;
+}
+.screenshot_tcb {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+@media screen and (min-width: 601px) {
+    .screenshot_tcb {
+        content: url('https://camo.githubusercontent.com/8d69b2b12cfee754da061adb1c2156d24c6ba70ab7b881269b5788bdb311fd52/687474703a2f2f6b656e736f692e6769746875622e696f2f7465737463616e617279626f742f6b63622d776964652d77686974652e6a7067')
+    }
+}
