@@ -134,6 +134,7 @@ input:active {
   box-sizing: border-box;
   display: inline-table;
   vertical-align: middle;
+  padding: 0 12px;
   
   font-size: 20px;
   line-height: 32px;
@@ -148,7 +149,7 @@ input:active {
   min-height: 32px;
   box-sizing: border-box;
   display: inline-table;
-  padding: 4px;
+  padding: 4px 12px;
   vertical-align: middle;
   
   background-color: rgba(12,12,12, 1);

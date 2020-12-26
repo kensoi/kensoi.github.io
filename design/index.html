@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kensoi Doc </title>
+    <link rel="stylesheet" href='../css/style-layout.css'>
+    <link rel="stylesheet" href='../css/style-footer.css'>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript" src="../js/redirection.js"></script>
+    <style>
+        .color_line {
+            background: rgba(0, 163, 221, 0.5);
+            color: white;
+            padding: 4px 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel layout">
+        <div class ="start-page-logo"> 
+            <div class = "start-page-wrapp">
+                <img src="../img/logos/kensoi_doc.svg" class="footer-cell-logo">
+            </div>
+            <div onclick="redirect(0)" class = "start-page-root">
+                kensoi/design
+            </div>
+        </div>
+    </div>
+
+    <div class = "panel_cover"> 
+        <img class = "panel_part_contact" width = "128px" src="lib_design.icon.transparent2.svg">
+        <img class = "panel_part_contact" width = "128px" src="lib_design.icon.transparent2.svg">
+        <img class = "panel_part_contact" width = "128px" src="lib_design.icon.transparent2.svg">
+    </div>
+
+    <div class = "panel layout">
+        <h1> Kensoi main picture </h1>
+        <p>
+            This is originaly SVG image that I used to introduce myself at projects like my games, videos, sites (including this), etc.
+        </p>
+        <p>
+            Available colors to use:
+            <span class="color_line">#00a3dd</span>
+            <span class="color_line">#FFFFFF</span> 
+            <span class="color_line">#000000</span>
+        </p>
+
+        
+        <div style = "max-width: 512px; margin: auto; text-align: center; border: 2px solid rgba(36,36,36, 1); border-radius: 6px; padding: 4px 24px; margin-bottom: 24px;">
+            <h2> Preview (original):</h2>
+            <img src="lib_design.icon.transparent2.svg" width="208px" style="display: block; margin: auto">
+            <input type="button" name='download' value="[SVG]"
+            onclick="location.href=`https://drive.google.com/drive/folders/1stcFx0Cto1VFM-rWru_Nm91O1MVIcGdb?usp=sharing`">
+        </div>
+        <div style = "max-width: 512px; margin: auto; text-align: center; border: 2px solid rgba(36,36,36, 1); border-radius: 6px; padding: 4px 24px">
+            <h2> Preview (favicon):</h2>
+            <img src="../img/favicon.ico" width="64px"><br><br>
+        
+            <input type="button" name='download' value="[SVG]"
+            onclick="location.href=`https://drive.google.com/file/d/1ZnM3tgR5-95WrOqoz6d8H7NzojLoYqqv/view?usp=sharing`"
+            >
+        </div>
+    </div>
+        
+    <div class = "panel layout">
+        <h1> TestCanaryBot and CanaryBot design </h1>
+        <p>
+            There are a completed PDF illustrations for original SVG sources. "General design" is a neutral design for product called testcanarybot -- framework for chatbots.
+        </p>
+        <input type="button" name='download' value="canarybot logo [SVG]"
+        onclick="location.href=`https://drive.google.com/file/d/1qOX1yP1TvFhpfq0YeEN5ZDL4BI_CGTpo/view?usp=sharing`"
+        > <br>
+        <input type="button" name='download' value="general design [SVG]"
+        onclick="location.href=`https://drive.google.com/file/d/1cqHSEFq-PWzRf4Z64o864dJkUGu85EZK/view?usp=sharing`"
+        > <br>
+        <p>How "general design" was made: </p>
+        <input type="button" name='download' value="general design [PDF]"
+        onclick="location.href=`https://drive.google.com/file/d/1KgScnXRZmrecr2BiAYI_hlqjKyzjYQ5R/view?usp=sharing`"
+        >
+    </div>
+    <div class="block select_none">
+        <div class="footer-table">
+            <div class="footer-cell-main">
+                <img src="../img/logos/kensoi_doc.svg" class="footer-cell-logo" onclick="redirect(0)">
+            </div>  
+    
+            <div class="footer-cell">
+                <div class="footer-cell-headline" onclick="redirect(4)">Projects</div>
+                <div class="footer-cell-link" onclick="redirect(11)">@canarybot</div>
+                <div class="footer-cell-link" onclick="redirect(12)">@testcanarybot</div>
+            </div>
+
+            <div class="footer-cell">
+                <div class="footer-cell-headline" onclick="redirect(5)">Sources</div>
+                <div class="footer-cell-link" onclick="redirect(6)">Kensoi Doc Design</div>
+                <div class="footer-cell-link" onclick="redirect(7)">Kensoi Open Cloud</div>
+                <div class="footer-cell-link" onclick="redirect(8)">testcanarybot</div>
+                <div class="footer-cell-link" onclick="redirect(9)">Telegram API wrapper</div>
+                <div class="footer-cell-link" onclick="redirect(10)">Complex Angle</div>
+            </div>
+
+            <div class="footer-cell-channels">
+                <img src="http://kensoi.github.io/img/logos/github.svg" class="footer-cell-svg" onclick="redirect(1)">
+                <img src="http://kensoi.github.io/img/logos/telegram.svg" class="footer-cell-svg" onclick="redirect(1)">
+                <img src="http://kensoi.github.io/img/logos/vkontakte.svg" class="footer-cell-svg" onclick="redirect(3)">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
