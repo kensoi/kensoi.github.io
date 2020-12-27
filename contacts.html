@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Kensoi Doc</title>
+    <title> Kensoi Doc </title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#111">
     <meta name="msapplication-navbutton-color" content="#111">
     <meta name="apple-mobile-web-app-status-bar-style" content="#111">
-    
+
     <link rel="stylesheet" href='css/style-layout.css'>
+    <link rel="stylesheet" href='css/style-contacts.css'>
     <link rel="shortcut icon" sizes="any" href="img/favicon.svg" type="image/svg+xml">
 
-    <script type="text/javascript" src="js/redirection.js"></script>
+    <script type="text/javascript" src="../js/redirection.js"></script>
 </head>
 <body>
-    <div class="layout-panel header">
+    <div class="layout-panel">
         <div class = "header-logo">
             <img src="../img/logos/kensoi-title.svg">
         </div>
-    </div>
-    
-    <div class = "layout-table">
-        <div class="layout-toast">
-            <div class="layout-toast-header">
-                Test window
-            </div>
-            <div class="layout-toast-content middle">
-                <p>
-                    Kinda of window like at Windows OS Family
-                </p>
-                <p>
-                    I like it.
-                </p>
-            </div>
-            <div class="layout-toast-content">
-                <input type="button" name="send" value="NEXT">
-                <input type="button" name="send" value="STOP">
-            </div>
+        <div onclick="redirect(0)" class = "header-root">
+            kensoi/contacts
         </div>
     </div>
     <div class = "layout-table">
-        <div class="layout-toast">
-            <div class="layout-toast-header">
-                Another window
+        <div class = "layout-table-cell">
+            <h1>
+                Main contacts
+            </h1>
+            <p>
+                You can find me at these social media:
+            </p>
+        </div>
+        <div class = "layout-table-line"> 
+            <img class = "panel_part_contact" onclick="redirect(1)" src="../img/logos/github.svg">
+            <img class = "panel_part_contact" onclick="redirect(2)" src="../img/logos/telegram.svg">
+            <img class = "panel_part_contact" onclick="redirect(3)" src="../img/logos/vkontakte.svg">
+        </div>
+        <div class = "layout-table-cell">
+            <h1>
+                Another social media
+            </h1>
+        </div>
+        <div class = "layout-table-line" onclick = "location.href=`https://twitter.com/kensoi_fuji`"> 
+            <div class = "layout-table-cell contacts-header">
+                Twitter
             </div>
-            <div class="layout-toast-content">
-                <p>
-                    This sample can be inherited from Linux Core Family
-                </p>
-                <p>
-                    I like it too.
-                </p>
+            <div class = "layout-table-cell contacts-link">
+                @kensoi_fuji
             </div>
+        </div>
+        <div class = "layout-table-line" onclick = "location.href=`https://instagram.com/andprokofieff`"> 
+            <div class = "layout-table-cell contacts-header">
+                Instagram
+            </div>
+            <div class = "layout-table-cell contacts-link">
+                @andprokofieff
+            </div>
+        </div>
+        <div class = "layout-table-line"> 
+            <div class = "layout-table-cell contacts-header">
+                Gmail
+            </div>
+            <div class = "layout-table-cell contacts-link">
+                prokofieff.help@gmail.com
+            </div>
+        </div>
+        <div class = "layout-table-line" style = "margin-top: 48px;" onclick = "location.href=`https://ru.wikipedia.org/wiki/Night_in_the_Woods`"> 
+            <img src="../img/nitw_mae.gif" style="border-radius: 16px;">
         </div>
     </div>
     <div class="layout-block select-none">

@@ -1,0 +1,40 @@
+.custom_square404 {
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    user-select: none;
+    
+}
+.custom_square404_cell {
+    display: inline-block;
+    margin: 8px;
+    background-color: rgba(76, 163, 221, 1);
+    color: black;
+    transition: 2s ease-out;
+    border-radius: 50%;
+}
+.custom_square404_cell:active {
+    margin: 16px 8px 0px 8px;
+    transition: 0.1s ease-out;
+}
+
+@media screen and (max-width: 599px) {
+    .custom_square404 {
+        width: 90vw;
+        height: 90vw;
+    }
+    .custom_square404_cell {
+        width: 64px;
+        height: 64px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .custom_square404 {
+        width: 30vw;
+        height: 30vw;
+    }
+    .custom_square404_cell {
+        width: calc(25% - 16px);
+        height: calc(25% - 16px);
+    }
+}

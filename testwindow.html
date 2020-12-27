@@ -1,37 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title> Kensoi Doc</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Kensoi Doc</title>
-    <link rel="stylesheet" href='css/style-header.css'>
+    <meta name="theme-color" content="#121212">
+    <meta name="msapplication-navbutton-color" content="#121212">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#121212">
+    
     <link rel="stylesheet" href='css/style-layout.css'>
-    <link rel="stylesheet" href='css/style-footer.css'>
-
-    <link rel="stylesheet" href='css/style-main.css'>
     <link rel="shortcut icon" sizes="any" href="img/favicon.svg" type="image/svg+xml">
 
     <script type="text/javascript" src="js/redirection.js"></script>
 </head>
 <body>
-    <div class="panel layout select_none">
-        <div class ="start-page-logo"> 
-            <div class = "start-page-wrapp">
-                <img src="../img/logos/kensoi_doc.svg" class="footer-cell-logo">
+    <div class="layout-panel header">
+            <div class = "header-logo">
+                <img src="../img/logos/kensoi-title.svg">
             </div>
-            <div onclick="redirect(1)" class = "start-page-root">
+            <div onclick="redirect(0)" class = "header-root">
                 kensoi/%index%
             </div>
-        </div>
     </div>
     
-    <div class = "panel_cover">
-        <div class="window">
-            <div class="window-header">
+    <div class = "layout-table">
+        <div class="layout-toast">
+            <div class="layout-toast-header">
                 Test window
             </div>
-            <div class="window-content middle">
+            <div class="layout-toast-content middle">
                 <p>
                     Kinda of window like at Windows OS Family
                 </p>
@@ -39,18 +37,18 @@
                     I like it.
                 </p>
             </div>
-            <div class="window-content">
+            <div class="layout-toast-content">
                 <input type="button" name="send" value="NEXT">
                 <input type="button" name="send" value="STOP">
             </div>
         </div>
     </div>
-    <div class = "panel_cover">
-        <div class="window">
-            <div class="window-header">
+    <div class = "layout-table">
+        <div class="layout-toast">
+            <div class="layout-toast-header">
                 Another window
             </div>
-            <div class="window-content">
+            <div class="layout-toast-content">
                 <p>
                     This sample can be inherited from Linux Core Family
                 </p>
@@ -60,25 +58,23 @@
             </div>
         </div>
     </div>
-    <div class="block select_none">
+    <div class="layout-block select-none">
         <div class="footer-table">
             <div class="footer-cell-main">
-                <img src="img/logos/kensoi_doc.svg" class="footer-cell-logo" onclick="redirect(0)">
+                <img src="img/logos/kensoi-title.svg" class="footer-cell-logo" onclick="redirect(0)">
             </div>  
     
             <div class="footer-cell">
-                <div class="footer-cell-headline" onclick="redirect(4)">Projects</div>
-                <div class="footer-cell-link" onclick="redirect(11)">@canarybot</div>
-                <div class="footer-cell-link" onclick="redirect(12)">@testcanarybot</div>
+                <div class="footer-cell-headline">Projects</div>
+                <div class="footer-cell-link" onclick="redirect(7)">@canarybot</div>
+                <div class="footer-cell-link" onclick="redirect(8)">@testcanarybot</div>
             </div>
 
             <div class="footer-cell">
-                <div class="footer-cell-headline" onclick="redirect(5)">Sources</div>
-                <div class="footer-cell-link" onclick="redirect(6)">Kensoi Doc Design</div>
-                <div class="footer-cell-link" onclick="redirect(7)">Kensoi Open Cloud</div>
-                <div class="footer-cell-link" onclick="redirect(8)">testcanarybot</div>
-                <div class="footer-cell-link" onclick="redirect(9)">Telegram API wrapper</div>
-                <div class="footer-cell-link" onclick="redirect(10)">Complex Angle</div>
+                <div class="footer-cell-headline">Pages</div>
+                <div class="footer-cell-link" onclick="redirect(4)">Kensoi Open Cloud</div>
+                <div class="footer-cell-link" onclick="redirect(5)">Design</div>
+                <div class="footer-cell-link" onclick="redirect(6)">Contacts</div>
             </div>
 
             <div class="footer-cell-channels">
@@ -87,7 +83,6 @@
                 <img src="img/logos/vkontakte.svg" class="footer-cell-svg" onclick="redirect(3)">
             </div>
         </div>
-        
     </div>
 </body>
 </html>

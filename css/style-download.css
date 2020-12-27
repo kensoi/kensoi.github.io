@@ -1,0 +1,24 @@
+
+        .download-table {
+            display: table;
+        }
+        .download-cell {
+            display: inline-table; 
+            vertical-align: middle;
+
+            margin: auto; 
+            border: 2px solid rgba(36,36,36, 1); 
+            border-radius: 6px 6px 6px 36px; 
+            padding: 4px 24px;
+            margin: 12px;
+            overflow: hidden;
+        }
+        .download-cell p {
+            max-width: 192px;
+            color: rgba(128,128,128, 1)
+        }
+        .download-cell input {
+            margin-left: 0;
+            margin-bottom: 24px;
+            position:relative;
+        }
