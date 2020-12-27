@@ -27,7 +27,6 @@ span {
 }
 
 input {
-  min-width: 128px;
   max-width: 640px;
   margin: 6px 18px;
   padding: 10px 9px;
@@ -227,6 +226,9 @@ input:active {
     width: 100%;
     text-align: center;
   }
+  input {
+    width: calc(100% - 32px);
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 640px){
   .footer-cell-channels {
@@ -239,11 +241,21 @@ input:active {
   .footer-table {
       text-align: center;
   } 
+  input {
+    min-width: 128px;
+  }
 }
 @media screen and (max-width: 1024px){
   .footer-cell-main {width: 100%}
 
   .header-logo {display: none}
+  input {
+    min-width: 128px;
+  }
 
   .layout-toast {width: 90%}
+  .layout-panel {
+    width: 90%;
+  
+  }
 } 

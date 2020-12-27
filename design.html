@@ -11,9 +11,35 @@
 
     <link rel="stylesheet" href='css/style-layout.css'>
     <link rel="stylesheet" href='css/style-download.css'>
+    <link rel="stylesheet" href='eesmth/-fonts.css'>
     <link rel="shortcut icon" sizes="any" href="img/favicon.svg" type="image/svg+xml">
 
     <script type="text/javascript" src="js/redirection.js"></script>
+    <style>
+        .geometry-bg {
+            background-image: url('eesmth/img/-post-img-geometry.jpg');
+            background-size: 200%;
+            background-position: center center;
+            padding: 128px 0;
+        }
+        .TT-Commons {
+            font-family: 'TT Commons';
+            font-style: italic;
+            text-transform:capitalize;
+            font-size: xx-large;
+            line-height: 200%;
+        }
+        .cite h1 {
+            max-width: 640px;
+            text-align: left;
+            margin: auto;
+        }
+        .cite h4 {
+            max-width: 640px;
+            text-align: right;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <div class="layout-panel header">
@@ -25,10 +51,9 @@
         </div>
     </div>
 
-    <div class = "layout-table"> 
-        <img class = "panel_part_contact" width = "128px" src="img/logos/kensoi-pic.svg">
-        <img class = "panel_part_contact" width = "128px" src="img/logos/kensoi-pic.svg">
-        <img class = "panel_part_contact" width = "128px" src="img/logos/kensoi-pic.svg">
+    <div class = "layout-table geometry-bg cite TT-Commons"> 
+        <h1>"This image was <br> made using <br> archive resources"</h1>
+        <h4> Andrew Prokofieff </h4>
     </div>
 
     <div class = "layout-panel layout-na">
@@ -45,21 +70,21 @@
 
         <div class = "download-table">
             <div class = "download-cell">
-                <p> Original picture </p>
-                <img src="img/logos/kensoi-pic.svg" height="192px" style="display: block; margin: auto">
-                <input type="button" name='download' value="[SVG]"
-                onclick="location.href=`https://drive.google.com/drive/folders/1stcFx0Cto1VFM-rWru_Nm91O1MVIcGdb?usp=sharing`">
-            </div>
-            <div class = "download-cell">
                 <p> Original picture with title </p>
-                <img src="img/logos/kensoi-title.svg" height="108px" style="display: block; margin: auto"><br>
+                <img src="img/logos/kensoi-title.svg">
                 <a href="img/logos/kensoi-title.svg" download>
                     <input type="button" name='download' value="[SVG]">
                 </a>
             </div>
             <div class = "download-cell">
+                <p> Original picture </p>
+                <img src="img/logos/kensoi-pic.svg">
+                <input type="button" name='download' value="[SVG]"
+                onclick="location.href=`https://drive.google.com/drive/folders/1stcFx0Cto1VFM-rWru_Nm91O1MVIcGdb?usp=sharing`">
+            </div>
+            <div class = "download-cell">
                 <p> Modded picture as kensoi doc favicon </p>
-                <img src="img/favicon.svg" width="64px"><br><br>
+                <img src="img/favicon.svg">
             
                 <input type="button" name='download' value="[SVG]"
                 onclick="location.href=`https://drive.google.com/file/d/1ZnM3tgR5-95WrOqoz6d8H7NzojLoYqqv/view?usp=sharing`"
@@ -84,6 +109,19 @@
         onclick="location.href=`https://drive.google.com/file/d/1KgScnXRZmrecr2BiAYI_hlqjKyzjYQ5R/view?usp=sharing`"
         >
     </div>
+    <div class = "layout-panel layout-na">
+        <h1> "EESMTH" archive page </h1>
+        <p>
+            Originally site, that was archived at this repository, so you can view how it was been before remaking it at Github Pages
+        </p>
+        <input type="button" name='download' value="index"
+        onclick="location.href=`https://kensoi.github.io/eesmth`"
+        ><br>
+        <input type="button" name='download' value="Canarybot prototype"
+        onclick="location.href=`https://kensoi.github.io/eesmth/kyoko.html`"
+        >
+    </div>
+
     <div class="layout-block select-none">
         <div class="footer-table">
             <div class="footer-cell-main">
