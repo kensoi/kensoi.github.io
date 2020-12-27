@@ -17,11 +17,11 @@
 
 @media screen and (max-width: 600px) {
     .screenshot_cb {
-        content: url('https://kensoi.github.io/mobile_screenshot.png');
+        content: url('https://kensoi.github.io/img/mobile_screenshot.png');
     }
 }
 @media screen and (min-width: 601px) {
     .screenshot_cb {
-        content: url("https://kensoi.github.io/vk_screenshot.png");
+        content: url("https://kensoi.github.io/img/vk_screenshot.png");
     }
 }
