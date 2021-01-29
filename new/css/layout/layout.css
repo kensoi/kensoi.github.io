@@ -1,0 +1,52 @@
+@import "input.css";
+@import "statement.css";
+
+.layout-na {
+    background-color: #111;
+    border: 2px solid #222;
+    border-radius: 6px;
+}
+
+.layout-block {
+    padding: 16px 5%;
+    margin-bottom: 64px;
+    box-sizing: border-box;
+}
+
+.layout-panel {
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+    margin-bottom: 64px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+    padding: 16px 5%;
+}
+
+.layout-table {
+    width: 80%;
+    max-width: 1152px;
+
+    padding: 0;
+    margin: auto;
+    margin-bottom: 64px;
+    vertical-align: top;
+    overflow-x: hidden;
+
+    text-align: center;
+}
+
+.layout-table-line {
+    margin: 8px 0
+}
+
+.layout-table-cell {
+    min-width: 256px;
+    max-width: 512px;
+    margin: 0 16px;
+    padding: 16px 5%;
+    display: inline-block;
+
+    text-align: left;
+}

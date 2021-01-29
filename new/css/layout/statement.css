@@ -1,0 +1,35 @@
+.statement {
+    max-width: 640px;
+    width: 90%;
+    min-height: 240px;
+    margin: auto;
+    margin-bottom: 72px;
+    word-break: break-word;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(76, 76, 76, 0.1);
+
+}
+.statement img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+.statement-header {
+    padding: 15px 15px;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(76, 76, 76, 0.1);
+
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.statement-body {
+    padding: 0 15px;
+}
+.statement-body-deeta {
+    font-size: small;
+    padding: 15px 15px;
+    color: rgb(139, 139, 139);
+    text-align: center;
+    bottom: 0px;
+}

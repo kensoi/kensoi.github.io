@@ -1,0 +1,26 @@
+input {
+    max-width: 640px;
+    margin: 5px 2px;
+    padding: 5px 9px;
+    display: inline-block;
+    outline:none;
+  
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+  
+    color: rgb(56, 56, 56);
+    background: #fff;
+  
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 24px;
+    box-shadow: 0 2px 8px 0 rgba(76, 76, 76, 0.1);
+}
+input:hover {
+    background: #c2c2c2;
+    color: black;
+}
+input:active {
+    background:  #575757;
+    color: black;
+}
