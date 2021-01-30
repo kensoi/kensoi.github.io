@@ -5,9 +5,9 @@
     margin: auto;
     margin-bottom: 72px;
     word-break: break-word;
-    background: #ffffff;
     border-radius: 4px;
-    box-shadow: 0 2px 8px 0 rgba(76, 76, 76, 0.1);
+    background: var(--toast);
+    box-shadow: 0 2px 8px 0 var(--shadow);
 
 }
 .statement img {
@@ -17,7 +17,7 @@
 .statement-header {
     padding: 15px 15px;
     text-align: center;
-    box-shadow: 0 2px 8px 0 rgba(76, 76, 76, 0.1);
+    box-shadow: 0 2px 8px 0 var(--shadow);
 
     text-transform: uppercase;
     font-weight: bold;
@@ -26,10 +26,10 @@
 .statement-body {
     padding: 0 15px;
 }
-.statement-body-deeta {
+.statement-body-data {
     font-size: small;
     padding: 15px 15px;
-    color: rgb(139, 139, 139);
+    color: var(--gray);
     text-align: center;
     bottom: 0px;
 }
