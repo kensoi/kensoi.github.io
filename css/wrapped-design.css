@@ -4,6 +4,13 @@
 @import "optional/header.css";
 @import "optional/footer.css";
 
+:root {
+    --background: #e0e0e0;
+    --toast: #ffffff;
+    --shadow: rgba(76, 76, 76, 0.1);
+    --font-color: #000000;
+    --inverse: #202020;
+}
 
 html {
     padding: 0;
@@ -15,7 +22,7 @@ body {
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
-    background: rgb(224, 224, 224);
+    background: var(--background);
 }
 
 .select-none {
