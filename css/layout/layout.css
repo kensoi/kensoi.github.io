@@ -3,6 +3,7 @@
 
 .layout {
     overflow-x: hidden;
+    margin: 0 0 64px;
 }
 .styled {
     background-color: #111;
