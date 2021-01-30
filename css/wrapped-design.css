@@ -11,6 +11,7 @@
     --gray: rgb(139, 139, 139);
     --font-color: #000000;
     --inverse: #202020;
+    --layout-padding: 64px;
 }
 
 html {
