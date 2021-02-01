@@ -6,8 +6,10 @@
     margin-bottom: 72px;
     word-break: break-word;
     border-radius: 4px;
-    background: var(--toast);
     box-shadow: 0 2px 8px 0 var(--shadow);
+    
+    background: var(--toast);
+    color: var(--font-color);
 
 }
 .statement img {

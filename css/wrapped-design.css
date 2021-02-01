@@ -14,6 +14,18 @@
     --layout-padding: 64px;
 }
 
+@media (prefers-dark-interface) {
+    :root {
+        --background: #1f1f1f;
+        --toast: #000000;
+        --shadow: hsla(0, 0%, 70%, 0.1);
+        --gray: #737373;
+        --font-color: #FFFFFF;
+        --inverse: #dedede;
+        --layout-padding: 64px;
+    }
+}
+
 html {
     padding: 0;
 }
