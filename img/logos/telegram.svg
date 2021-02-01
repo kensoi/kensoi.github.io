@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
    viewBox="0 0 63.499999 63.500002"
    height="240"
-   width="240">
+   width="240"
+   sodipodi:docname="telegram.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="1.53125"
+     inkscape:cx="-7.4590591"
+     inkscape:cy="148.52582"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
   <defs
      id="defs2">
     <linearGradient
@@ -55,26 +79,13 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     id="layer1">
-    <g
-       transform="translate(-1.4749908,-1.5266685)"
-       id="g884">
-      <circle
-         style="fill:#ffffff;stroke-width:0.264583"
-         cx="33.224991"
-         cy="33.276669"
-         fill="url(#a)"
-         id="circle845"
-         r="31.75" />
-      <path
-         id="path849"
-         style="fill:#000000;stroke-width:0.264583"
-         d="m 47.381901,20.625238 c -0.246419,0.009 -0.507008,0.07177 -0.768945,0.190686 l -30.583147,11.79256 c -2.087562,0.837409 -2.074994,2.002446 -0.380339,2.521294 L 23.498087,37.57924 41.66752,26.116377 c 0.85778,-0.520174 1.645018,-0.240821 0.998906,0.332795 L 27.944843,39.734147 h -5.16e-4 v 5.19e-4 l -5.16e-4,5.16e-4 5.16e-4,5.16e-4 -0.540018,8.093048 c 0.79375,0 1.144323,-0.363008 1.5875,-0.79375 l 3.813204,-3.708302 7.934399,5.861659 c 1.460236,0.805656 2.513542,0.388395 2.877344,-1.355474 l 5.208466,-24.543205 c 0.433173,-1.736989 -0.37551,-2.703421 -1.443321,-2.664436 z" />
-    </g>
-  </g>
+  <path
+     id="circle845"
+     style="fill:#ffffff;stroke-width:0.999999"
+     d="M 120 0 A 120 120 0 0 0 0 120 A 120 120 0 0 0 120 240 A 120 120 0 0 0 240 120 A 120 120 0 0 0 120 0 z M 173.50586 72.183594 C 177.54168 72.036249 180.59813 75.688909 178.96094 82.253906 L 159.27539 175.01562 C 157.90039 181.60663 153.91939 183.18367 148.40039 180.13867 L 118.41211 157.98438 L 104 172 C 102.325 173.628 101 175 98 175 L 100.04102 144.41211 L 100.03906 144.41016 L 100.04102 144.4082 L 100.04102 144.40625 L 100.04297 144.40625 L 155.68359 94.195312 C 158.12559 92.027315 155.15021 90.971488 151.9082 92.9375 L 83.236328 136.26172 L 53.572266 127.00391 C 47.16727 125.04291 47.119768 120.63962 55.009766 117.47461 L 170.59961 72.904297 C 171.58961 72.454851 172.57451 72.217609 173.50586 72.183594 z "
+     transform="scale(0.26458334)" />
 </svg>
