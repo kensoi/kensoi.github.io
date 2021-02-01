@@ -7,6 +7,7 @@
     word-break: break-word;
     border-radius: 4px;
     box-shadow: 0 2px 8px 0 var(--shadow);
+    overflow: hidden;
     
     background: var(--toast);
     color: var(--font-color);
@@ -34,4 +35,12 @@
     color: var(--gray);
     text-align: center;
     bottom: 0px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .statement-header {
+        border-bottom: 2px solid var(--background);
+        margin-bottom: -2px;
+    }
 }
