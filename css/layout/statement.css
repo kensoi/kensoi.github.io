@@ -23,7 +23,6 @@
     padding: 15px 15px;
     text-align: center;
     box-shadow: 0 2px 8px 0 var(--shadow);
-    transition: 0.1s;
 
     text-transform: uppercase;
     font-weight: bold;
