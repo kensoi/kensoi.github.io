@@ -4,17 +4,9 @@
 @import "optional/header.css";
 @import "optional/footer.css";
 
-:root {
-    --background: #e0e0e0;
-    --toast: #ffffff;
-    --shadow: rgba(76, 76, 76, 0.1);
-    --gray: rgb(139, 139, 139);
-    --font-color: #000000;
-    --inverse: #202020;
-    --layout-padding: 64px;
-}
 
-@media (prefers-dark-interface) {
+
+@media (prefers-color-scheme: dark) {
     :root {
         --background: #1f1f1f;
         --toast: #000000;
@@ -22,6 +14,18 @@
         --gray: #737373;
         --font-color: #FFFFFF;
         --inverse: #dedede;
+        --layout-padding: 64px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: #e0e0e0;
+        --toast: #ffffff;
+        --shadow: rgba(76, 76, 76, 0.1);
+        --gray: rgb(139, 139, 139);
+        --font-color: #000000;
+        --inverse: #202020;
         --layout-padding: 64px;
     }
 }
