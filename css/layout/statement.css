@@ -44,12 +44,12 @@
 
 .statement-header.selectable:hover {
     border: 2px solid var(--toast);
+    border-radius: inherit;
+    padding: 13px 15px;
 }
 .statement-header.selectable:hover {
     background:  var(--toast-hover);
     border: 2px solid var(--gray);
-    border-radius: inherit;
-    padding: 13px 15px;
 }
 .statement-header.selectable:active {
     background: var(--toast-active);
