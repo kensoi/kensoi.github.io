@@ -43,6 +43,9 @@
 }
 
 .statement-header.selectable:hover {
+    border: 2px solid var(--toast);
+}
+.statement-header.selectable:hover {
     background:  var(--toast-hover);
     border: 2px solid var(--gray);
     border-radius: inherit;
