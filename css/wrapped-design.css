@@ -15,6 +15,7 @@
         --font-color: #FFFFFF;
         --inverse: #dedede;
         --layout-padding: 64px;
+        --footer-bg: #000;
     }
 }
 
@@ -27,6 +28,7 @@
         --font-color: #000000;
         --inverse: #202020;
         --layout-padding: 64px;
+        --footer-bg: #202020;
     }
 }
 
