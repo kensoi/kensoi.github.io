@@ -8,8 +8,11 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #1f1f1f;
+        --background: #0f0f0f;
         --toast: #000000;
+        --toast-hover: #222222;
+        --toast-active: #111111;
+
         --shadow: hsla(0, 0%, 70%, 0.1);
         --gray: #737373;
         --font-color: #FFFFFF;
@@ -23,6 +26,8 @@
     :root {
         --background: #e0e0e0;
         --toast: #ffffff;
+        --toast-hover: #dddddd;
+        --toast-active: #eeeeee;
         --shadow: rgba(76, 76, 76, 0.1);
         --gray: rgb(139, 139, 139);
         --font-color: #000000;
