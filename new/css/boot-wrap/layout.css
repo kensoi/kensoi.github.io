@@ -1,0 +1,108 @@
+@import "articles.css";
+@import "spoilers.css";
+
+
+html {
+    padding: 0;
+    overflow-x: unset;
+}
+
+body {
+    width: 100vw;
+    background: var(--menu-bg);
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width:0px;
+    height:0px;
+}
+::-webkit-scrollbar-button{
+    width:0px;
+    height:0px;
+}
+
+.layout-wide {
+    width: 100vw;
+    
+}
+
+.content {
+    background: var(--background);
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 88px 0 0 0;
+    /* margin-left: var(--menu-size);  откат контента для появления менюшки*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: 0.2s;
+}
+.menu {
+    width: var(--menu-size);
+    max-width: 100%;
+    height: calc(100vh - 88px);
+    color: var(--font-color-menu);
+    box-shadow: var(--shadow);
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 88px 0 0 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 25;
+}
+.menu hr {
+    margin: 0 5%;
+    border: none;
+    color: var(--menuhr);
+    background-color: var(--menuhr);
+    height: 2px;
+}
+.menu-button {
+    box-sizing: border-box;
+    width: 90%;
+
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+    user-select: none;
+    padding: 18px 5%;
+    margin: 0 5%;
+}
+
+.menu-button:hover {
+    background: rgba(256, 256, 256, 0.1);
+}
+.menu-button:active {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+.menu-content {
+    width: 90%;
+    min-height: 128px;
+    margin: 0 5%;
+    padding: 48px 5% 0;
+    font-size: large;
+}
+.menu-headline {
+    width: 90%;
+    min-height: 64px;
+    margin: 0 5%;
+    padding: 0 5%;
+    font-size: xx-large;
+}

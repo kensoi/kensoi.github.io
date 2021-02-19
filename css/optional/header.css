@@ -9,17 +9,21 @@
 
     text-transform: lowercase;
     line-height: 32px;
+    height: 64px;   
 
     color: #ffffff;
     background-color: #111111;
 }
 
 .header-doc {
+    display: inline-block;  
+
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    line-height: 64px;
-    height: 64px;
     font-size: 24px;
+
+    letter-spacing: 2px;
+
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 64px;
 }
