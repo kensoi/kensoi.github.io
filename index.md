@@ -3,5 +3,5 @@
 #### Связаться:
 
 prokofieff@internet.ru  
-vk.com/crubbukket  
-t.me/kensoi_fuji  
+[vk.com/crubbukket](https://vk.com/crubbukket)  
+[t.me/kensoi_fuji](https://t.me/kensoi_fuji)  
