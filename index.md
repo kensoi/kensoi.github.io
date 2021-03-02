@@ -2,6 +2,6 @@
 
 #### Связаться:
 
-prokofieff@internet.ru
-vk.com/crubbukket
-t.me/kensoi_fuji
+prokofieff@internet.ru  
+vk.com/crubbukket  
+t.me/kensoi_fuji  
