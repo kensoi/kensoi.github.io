@@ -3,6 +3,6 @@
 #### Связаться:
 
 prokofieff@internet.ru  
-[vk.com/crubbukket](https://vk.com/crubbukket)
-[t.me/knsdc](https://t.me/knsdc)  
+[vk.com/crubbukket](https://vk.com/crubbukket)  
+[t.me/knsdc](https://t.me/knsdc)    
 [t.me/kensoi](https://t.me/kensoi)  
