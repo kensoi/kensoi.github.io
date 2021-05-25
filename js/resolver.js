@@ -51,9 +51,6 @@ function resolve(num = null) {
         var num = getAllUrlParams().r
     }
     var link = 'https://kensoi.github.io'
-    if ((!num) && (typeof(num) != 'undefined')) {
-      link = resolveDict[num]
-      location.href = link
-    } 
+    link = resolveDict[num]
 
 }
