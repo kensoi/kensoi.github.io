@@ -1,5 +1,5 @@
 var resolveDict = {}
-resolveDict['undefined'] = "file:///E:/dev/kensoi.github.io/redir.html"
+resolveDict[undefined] = "file:///E:/dev/kensoi.github.io/redir.html"
 resolveDict[null] = "file:///E:/dev/kensoi.github.io/redir.html"
 resolveDict['1'] = "https://vk.com/id517114114"
 resolveDict['2'] = "https://vk.com/crubbukket"
@@ -51,10 +51,8 @@ function resolve(num = null) {
         var num = getAllUrlParams().r
     }
     var link = 'https://kensoi.github.io'
-    if ((!num) && (num != 'undefined')) {
+    if ((!num) && (typeof(num) != 'undefined')) {
       link = resolveDict[num]
-      console.log(num)
-      console.log(link)
       location.href = link
     } 
 
