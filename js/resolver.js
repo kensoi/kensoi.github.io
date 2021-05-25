@@ -1,10 +1,10 @@
 var resolveDict = {}
-resolveDict[undefined] = "file:///E:/dev/kensoi.github.io/redir.html"
-resolveDict[null] = "file:///E:/dev/kensoi.github.io/redir.html"
-resolveDict['1'] = "https://vk.com/id517114114"
-resolveDict['2'] = "https://vk.com/crubbukket"
-resolveDict['3'] = "https://vk.com/canarybot"
-resolveDict['4'] = "https://vk.com/testcanarybot"
+resolveDict[undefined] = "https://kensoi.github.io"
+resolveDict[null] = "https://kensoi.github.io"
+resolveDict['KNSUSER'] = "https://vk.com/id517114114"
+resolveDict['NSF2FRT'] = "https://vk.com/crubbukket"
+resolveDict['CNBTTUT'] = "https://vk.com/canarybot"
+resolveDict['AAARRRE'] = "https://vk.com/testcanarybot"
 
 function getAllUrlParams(url) {
     var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
