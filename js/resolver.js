@@ -46,12 +46,14 @@ function getAllUrlParams(url) {
   
     return obj;
   }
+  
+  
 function resolve(num = null) {
     if (!num) {
         var num = getAllUrlParams().r
     }
     var link = 'https://kensoi.github.io'
     link = resolveDict[num]
-    console.log(link)
+    location.href = link
 
 }
