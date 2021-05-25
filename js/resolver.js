@@ -3,12 +3,13 @@ resolveDict[undefined] = "https://kensoi.github.io"
 resolveDict[null] = "https://kensoi.github.io"
 resolveDict['KNSUSER'] = "https://vk.com/id517114114"
 resolveDict['NSF2FRT'] = "https://vk.com/club195953234"
-resolveDict['CNBTTUT'] = "https://vk.com/tildabot"
+resolveDict['CNBTTUT'] = "https://vk.com/canarybot"
 resolveDict['AAARRRE'] = "https://vk.com/testcanarybot"
 resolveDict['1'] = "https://vk.com/id517114114"
 resolveDict['2'] = "https://vk.com/club195953234"
-resolveDict['3'] = "https://vk.com/tildabot"
+resolveDict['3'] = "https://vk.com/canarybot"
 resolveDict['4'] = "https://vk.com/testcanarybot"
+resolveDict['4'] = "https://vk.com/tildabot"
 
 function getAllUrlParams(url) {
   var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
