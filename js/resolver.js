@@ -52,5 +52,6 @@ function resolve(num = null) {
     }
     var link = 'https://kensoi.github.io'
     link = resolveDict[num]
+    console.log(link)
 
 }
