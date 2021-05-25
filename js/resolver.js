@@ -5,6 +5,10 @@ resolveDict['KNSUSER'] = "https://vk.com/id517114114"
 resolveDict['NSF2FRT'] = "https://vk.com/crubbukket"
 resolveDict['CNBTTUT'] = "https://vk.com/canarybot"
 resolveDict['AAARRRE'] = "https://vk.com/testcanarybot"
+resolveDict['1'] = "https://vk.com/id517114114"
+resolveDict['2'] = "https://vk.com/crubbukket"
+resolveDict['3'] = "https://vk.com/canarybot"
+resolveDict['4'] = "https://vk.com/testcanarybot"
 
 function getAllUrlParams(url) {
     var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
@@ -24,8 +28,8 @@ function getAllUrlParams(url) {
   
         var paramValue = typeof(a[1])===null ? null : a[1];
   
-        paramName = paramName.toLowerCase();
-        paramValue = paramValue.toLowerCase();
+        paramName = paramName.toUpperCase();
+        paramValue = paramValue.toUpperCase();
   
         if (obj[paramName]) {
           if (typeof obj[paramName] === 'string') {
@@ -49,11 +53,16 @@ function getAllUrlParams(url) {
   
   
 function resolve(num = null) {
-    if (!num) {
-        var num = getAllUrlParams().r
-    }
-    var link = 'https://kensoi.github.io'
-    link = resolveDict[num]
-    location.href = link
+  var link = 'https://kensoi.github.io'
+  if (!num) {
+      var num = getAllUrlParams().R
+  }
 
+  link = resolveDict[num]
+  if (num != undefined) {
+    location.href = link
+  }
+  else {
+    location.href = 'https://kensoi.github.io'
+  }
 }
