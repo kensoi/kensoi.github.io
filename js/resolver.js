@@ -11,6 +11,7 @@ resolveDict['3'] = "https://vk.com/canarybot"
 resolveDict['4'] = "https://vk.com/testcanarybot"
 resolveDict['4'] = "https://vk.com/tildabot"
 resolveDict['GITHUB'] = "https://github.com/kensoi"
+resolveDict['JSTKDDN'] = "https://vk.com/jstkddn"
 
 function getAllUrlParams(url) {
   var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
