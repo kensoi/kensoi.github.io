@@ -12,6 +12,7 @@ resolveDict['4'] = "https://vk.com/testcanarybot"
 resolveDict['4'] = "https://vk.com/tildabot"
 resolveDict['GITHUB'] = "https://github.com/kensoi"
 resolveDict['JSTKDDN'] = "https://vk.com/jstkddn"
+resolveDict['OPEN-CLOUD'] = "https://drive.google.com/drive/folders/1Lh5jXPR9IHGoBQgC9C0nRUTxvW5ubagt"
 
 function getAllUrlParams(url) {
   var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
