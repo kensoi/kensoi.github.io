@@ -16,6 +16,7 @@ resolveDict['GITHUB'] = "https://github.com/kensoi"
 resolveDict['JSTKDDN'] = "https://vk.com/linaed8"
 resolveDict['OPEN-CLOUD'] = "https://drive.google.com/drive/folders/1Lh5jXPR9IHGoBQgC9C0nRUTxvW5ubagt"
 resolveDict['YOUTUBE'] = "https://www.youtube.com/channel/UCDuxdiSSR4NSWby2a7PIMpA"
+resolveDict['TELEGRAM'] = "https://t.me/kensodoku"
 
 function getAllUrlParams(url) {
   var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
